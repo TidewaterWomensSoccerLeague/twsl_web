@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tidewater Womens Soccer League</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Tidewater Womens Soccer League</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2018</copyright>
+    <lastBuildDate>Tue, 30 May 2017 20:11:48 -0400</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>index</title>
+      <link>http://example.org/contact/index/</link>
+      <pubDate>Tue, 30 May 2017 20:11:48 -0400</pubDate>
+      
+      <guid>http://example.org/contact/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://example.org/standings/index/</link>
+      <pubDate>Tue, 30 May 2017 19:50:04 -0400</pubDate>
+      
+      <guid>http://example.org/standings/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://example.org/teams/index/</link>
+      <pubDate>Tue, 30 May 2017 19:49:44 -0400</pubDate>
+      
+      <guid>http://example.org/teams/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://example.org/schedule/index/</link>
+      <pubDate>Tue, 30 May 2017 19:49:38 -0400</pubDate>
+      
+      <guid>http://example.org/schedule/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://example.org/shop/index/</link>
+      <pubDate>Tue, 30 May 2017 19:49:30 -0400</pubDate>
+      
+      <guid>http://example.org/shop/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://example.org/faqs/index/</link>
+      <pubDate>Tue, 30 May 2017 19:49:24 -0400</pubDate>
+      
+      <guid>http://example.org/faqs/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://example.org/registration/index/</link>
+      <pubDate>Tue, 30 May 2017 19:49:15 -0400</pubDate>
+      
+      <guid>http://example.org/registration/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://example.org/board/index/</link>
+      <pubDate>Tue, 30 May 2017 19:49:05 -0400</pubDate>
+      
+      <guid>http://example.org/board/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://example.org/about/index/</link>
+      <pubDate>Tue, 30 May 2017 19:48:39 -0400</pubDate>
+      
+      <guid>http://example.org/about/index/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

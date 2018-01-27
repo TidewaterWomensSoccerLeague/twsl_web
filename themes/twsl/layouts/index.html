@@ -1,0 +1,26 @@
+{{ partial "head.html" . }}
+<body>
+<div class="navigation">
+    {{ partial "navbar-menu.html" . }}
+    {{ partial "widgets/twitter.html" . }}
+</div>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label class="text-white xxlarge" for="nav-trigger">&#9776;</label>
+
+<div class="site-wrap">
+{{ partial "header.html" . }}
+    <div class="content light-grey padding-large margin-top" id="content" role="main">
+      <div class="light-grey padding-large padding-32 margin-top" id="about">{{ partial "about.html" . }}</div>
+      <div class="light-grey padding-large padding-32 margin-top" id="contact">{{ partial "contact.html" . }}</div>
+      <div class="light-grey padding-large padding-32 margin-top" id="faqs">{{ partial "faqs.html" . }}</div>
+      <div class="light-grey padding-large padding-32 margin-top" id="board">{{ partial "board.html" . }}</div>
+      <div class="light-grey padding-large padding-32 margin-top" id="schedule">{{ partial "schedule.html" . }}</div>
+      <div class="light-grey padding-large padding-32 margin-top" id="teams">{{ partial "teams.html" . }}</div>
+      <div class="light-grey padding-large padding-32 margin-top" id="registration">{{ partial "registration.html" . }}</div>
+      <div class="light-grey padding-large padding-32 margin-top" id="shop">{{ partial "shop.html" . }}</div>
+    </div>
+    <footer id="footer" class="display-container content center">
+        {{ partial "footer.html" . }}
+    </footer>
+</div>

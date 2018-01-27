@@ -1,0 +1,24 @@
+<div class="sidebar bar-block collapse" style="width:200px;right:0" id="sidebar">
+    <button class="bar-item button hide-large" onclick="sidebar_close()">Close &times;</button>
+    {{ partial "widgets.html" . }}
+</div>
+
+<div class="main" style="margin-right:200px">
+    <div class="teal">
+        <button class="button teal xlarge right hide-large" onclick="sidebar_open()">&#9776;</button>
+        <div class="container">
+            <h2>My Page</h2>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function sidebar_open() {
+        document.getElementById("sidebar").style.display = "block";
+    }
+
+    function sidebar_close() {
+        document.getElementById("sidebar").style.display = "none";
+    }
+</script>

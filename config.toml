@@ -1,0 +1,78 @@
+baseURL = "http://example.org/"
+DefaultContentLanguage = "en"
+languageCode = "en-us"
+title = "Tidewater Womens Soccer League"
+theme = "twsl"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+# Define the number of posts per site
+paginate = 10
+
+[permalinks]
+    post = "/:year/:month/:day/:slug"
+
+# Parameters used to generate site metadata
+[params]
+    author = ""
+    copyright  = "2018"
+    site_description = "tidewater womens soccer league, divisions, teams, schedule, registration. A safe and friendly recreational soccer league for the women of the greater tidewater and hampton roads virginia area."
+    keywords = "sports,adult,soccer,recreational,female,league,tidewater womens soccer league,tidewater,virginia,hampton roads"
+    organization = "Tidewater Women's Soccer League,TWSL"
+    sport = "soccer"
+    gender = "female"
+    age = "adult"
+    skill_level = "recreational"
+    city = ""
+    region = "tidewater,hampton roads"
+    state = "virginia,va"
+    country = "usa,us,united states"   
+    zip = ""
+    
+
+    # Format dates with Go's time formating
+    date_format = "2006-01-02"
+
+[social]
+# Add your social network accounts to the site
+# by entering your username. The links to your account will be
+# create automatically.
+    github          = ""
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    foursquare      = ""
+    dribbble        = ""
+    deviantart      = ""
+    behance         = ""
+    flickr          = ""
+    instagram       = "twsl_va"
+    youtube         = ""
+    vimeo           = ""
+    vine            = ""
+    medium          = ""
+    wordpress       = ""
+    tumblr          = ""
+    xing            = ""
+    linkedin        = ""
+    slideshare      = ""
+    stackoverflow   = ""
+    reddit          = ""
+    pinterest       = ""
+    googleplus      = ""
+    facebook        = "twslva"
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = "twslva"
+
+# Enable and disable widgets for the sidebar
+[params.widgets]
+    search = false
+    recent_articles = false
+    twitter = true
+    categories = false
+    tags = false
+    tag_cloud = false
+
+[page_not_found]
+    title = "404 - page not found"
+    subtitle = "The content you're looking for doesn't seem to exist."

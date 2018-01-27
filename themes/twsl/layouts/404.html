@@ -1,0 +1,20 @@
+{{ partial "head.html" . }}
+<body>
+<div class="navigation">
+    {{ partial "navbar-menu.html" . }}
+    {{ partial "widgets/twitter.html" . }}
+</div>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label class="text-white xxlarge" for="nav-trigger">&#9776;</label>
+
+<div class="site-wrap">
+{{ partial "header.html" . }}
+    <div class="content light-grey padding-large margin-top" id="content" role="main">
+
+    </div>
+    <footer id="footer" class="display-container content center">
+        {{ partial "footer.html" . }}
+    </footer>
+</div>
+

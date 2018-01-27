@@ -1,0 +1,13 @@
+{{ if .Site.Params.widgets.twitter }}
+
+<div class="widget-wrap">
+    <div class="widget">
+        {{ with .Site.Social.twitter }}
+        <a class="twitter-timeline" data-lang="en" data-width="250" data-height="400" data-theme="dark" 
+href="//twitter.com/{{.}}">
+Tweets by {{.}}</a>{{ end }} 
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
+{{ end }}
