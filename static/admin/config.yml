@@ -9,73 +9,73 @@ public_folder: "uploads"
 
 collections:
 - label: "about"
-name: "about"
-folder: "site/content/about"
-create: true
-fields: 
+  name: "about"
+  folder: "site/content/about"
+  create: true
+  fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-collections:
+
 - label: "faqs"
-name: "FAQs" 
-folder: "site/content/faqs" 
-create: true 
-fields: 
+  name: "FAQs" 
+  folder: "site/content/faqs" 
+  create: true 
+  fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-collections:
+
 - label: "schedule" 
-name: "schedule" 
-folder: "site/content/schedule" 
-create: true 
-fields: 
+  name: "schedule" 
+  folder: "site/content/schedule" 
+  create: true 
+  fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-collections:
+
 - label: "rosters"
-name: "rosters"
-folder: "site/content/teams" 
-create: true 
-fields: 
+  name: "rosters"
+  folder: "site/content/teams" 
+  create: true 
+  fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-collections:
+
 - label: "registration" 
-name: "registration" 
-folder: "site/content/registration" 
-create: true 
-fields: 
+  name: "registration" 
+  folder: "site/content/registration" 
+  create: true 
+  fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-collections:
+
 - label: "board" 
-name: "board" 
-folder: "site/content/board" 
-create: true 
-fields: 
+  name: "board" 
+  folder: "site/content/board" 
+  create: true 
+  fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-collections:
+
 - label: "contact" 
-name: "contact" 
-folder: "site/content/contact" 
-create: true 
-fields: 
+  name: "contact" 
+  folder: "site/content/contact" 
+  create: true 
+  fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-collections:
+
 - label: "shop" 
-name: "shop" 
-folder: "site/content/shop" 
-create: true 
-fields: 
+  name: "shop" 
+  folder: "site/content/shop" 
+  create: true 
+  fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
