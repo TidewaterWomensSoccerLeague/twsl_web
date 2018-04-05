@@ -18,7 +18,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
 - label: "FAQs" 
     name: "FAQs" 
-    folder: "site/content/FAQs" 
+    folder: "site/content/faqs" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
 - label: "rosters"
     name: "rosters"
-    folder: "site/content/rosters" 
+    folder: "site/content/teams" 
     create: true 
     fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
