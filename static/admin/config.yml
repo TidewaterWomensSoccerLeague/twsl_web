@@ -4,13 +4,13 @@ backend:
   branch: master
 
 publish_mode: editorial_workflow
-media_folder: "site/static/uploads" 
+media_folder: "static/uploads" 
 public_folder: "uploads"
 
 collections:
 - label: "about"
   name: "about"
-  folder: "site/content/about"
+  folder: "content/about"
   create: true
   fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -19,7 +19,7 @@ collections:
 
 - label: "FAQs"
   name: "FAQs" 
-  folder: "site/content/faqs" 
+  folder: "content/faqs" 
   create: true 
   fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -28,7 +28,7 @@ collections:
 
 - label: "schedule" 
   name: "schedule" 
-  folder: "site/content/schedule" 
+  folder: "content/schedule" 
   create: true 
   fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -37,7 +37,7 @@ collections:
 
 - label: "rosters"
   name: "rosters"
-  folder: "site/content/teams" 
+  folder: "content/teams" 
   create: true 
   fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -46,7 +46,7 @@ collections:
 
 - label: "registration" 
   name: "registration" 
-  folder: "site/content/registration" 
+  folder: "content/registration" 
   create: true 
   fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -55,7 +55,7 @@ collections:
 
 - label: "board" 
   name: "board" 
-  folder: "site/content/board" 
+  folder: "content/board" 
   create: true 
   fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -64,7 +64,7 @@ collections:
 
 - label: "contact" 
   name: "contact" 
-  folder: "site/content/contact" 
+  folder: "content/contact" 
   create: true 
   fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -73,7 +73,7 @@ collections:
 
 - label: "shop" 
   name: "shop" 
-  folder: "site/content/shop" 
+  folder: "content/shop" 
   create: true 
   fields: 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
